@@ -68,6 +68,7 @@ export class AssistPref extends LitElement {
               type: "icon",
               darkOptimized: this.hass.themes?.darkMode,
             })}
+            crossorigin="anonymous"
             referrerpolicy="no-referrer"
           />Assist
         </h1>

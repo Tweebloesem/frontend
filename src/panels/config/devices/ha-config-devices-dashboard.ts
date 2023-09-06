@@ -296,6 +296,7 @@ export class HaConfigDeviceDashboard extends LitElement {
             device.domains.length
               ? html`<img
                   alt=""
+                  crossorigin="anonymous"
                   referrerpolicy="no-referrer"
                   src=${brandsUrl({
                     domain: device.domains[0],
