@@ -46,8 +46,6 @@ const CONFIGS = [
     config: `
 - type: thermostat
   entity: climate.ecobee
-- type: thermostat
-  entity: climate.nest
     `,
   },
   {
